@@ -1,0 +1,17 @@
+{
+  "name": "xx-unleash-proxy",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "@unleash/proxy": "^0.4.0",
+    "express": "^4.17.2",
+    "express-mung": "^0.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
